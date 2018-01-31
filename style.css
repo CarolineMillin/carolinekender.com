@@ -78,8 +78,7 @@ h4 {
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
-  text-transform: uppercase;
-  color: #0078ff }
+  text-transform: uppercase;}
 
 @media (min-width: 992px) {
   #sideNav {
@@ -117,7 +116,7 @@ h4 {
         #sideNav .navbar-collapse .navbar-nav .nav-item {
           display: block; }
           #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
-            display: block; } }
+            display: block;} }
 
 section.chunk {
   border-bottom: 1px solid #f8f9fa;
