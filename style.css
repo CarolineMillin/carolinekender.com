@@ -78,7 +78,8 @@ h4 {
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #0078ff }
 
 @media (min-width: 992px) {
   #sideNav {
