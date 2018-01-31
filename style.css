@@ -78,6 +78,7 @@ h4 {
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
+  color: #ffffff;
   text-transform: uppercase;}
 
 @media (min-width: 992px) {
@@ -120,8 +121,8 @@ h4 {
 
 section.chunk {
   border-bottom: 1px solid #f8f9fa;
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important; }
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important; }
   section.chunk .item .date {
     min-width: none; }
 
