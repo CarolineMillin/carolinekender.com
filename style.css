@@ -11,7 +11,8 @@ body {
   font-family: 'Lato', serif;
   padding-top: 54px;
   color: #444444;
-  background-color: #FFE4C4}
+  background-color: #FFf7ef;
+  background-image: url("https://carolinemillin.com/paper.png");}
 
 @media (min-width: 992px) {
   body {
@@ -62,11 +63,11 @@ h4 {
 .date {
   font-size: 1.05rem;
   font-weight: bold;
-  color: #0078ff;
+  color: #2e70a5;
 }
 
 .list-social-icons a {
-  color: #ff5718; }
+  color: #2e70a5; }
   .list-social-icons a:hover {
     color: #343434; }
   .list-social-icons a .fa-lg {
@@ -75,7 +76,7 @@ h4 {
 .list-icons {
   font-size: 3rem; }
   .list-icons .list-inline-item i:hover {
-    color: #ff5718;}
+    color: #2e70a5;}
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
@@ -104,8 +105,10 @@ h4 {
         #sideNav .navbar-brand .img-profile:hover {
           max-width: 15rem;
           max-height: 15rem;
-          transition: all .4s ease-in-out;
-          border: 0.75rem solid rgba(0, 0, 0, 0.2);}
+          -webkit-transition: .3s ease-in-out;
+          transition: all .3s ease-in-out;
+          border: 0.75rem solid rgba(0, 0, 0, 0.2);
+          transform: scale(1.03);}
     #sideNav .navbar-collapse {
       display: flex;
       align-items: flex-start;
@@ -146,10 +149,10 @@ section.chunk {
    }}
 
 .bg-primary {
-  background-color: #4682B4 !important; }
+  background-color: #2e70a5 !important; }
 
 .text-primary {
-  color: #4682B4 !important;
+  color: #2e70a5 !important;
   }
 
 a {
