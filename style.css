@@ -11,8 +11,9 @@ body {
   font-family: 'Lato', serif;
   padding-top: 54px;
   color: #444444;
-  background-color: #FFf7ef;
-  background-image: url("https://carolinemillin.com/paper.png");}
+  background-color: #FFfcef;
+  background-image: url(https://carolinemillin.com/paper.png);
+}
 
 @media (min-width: 992px) {
   body {
