@@ -79,14 +79,13 @@ h4 {
   .list-icons .list-inline-item i:hover {
     color: #2e70a5;}
 
-  #sideNav .navbar-nav a {
+    #sideNav .navbar-nav .nav-item .nav-link{
     font-weight: 600;
     color: #FFfcef;
     text-transform: uppercase;
     text-decoration: none;}
 
-    #sideNav .navbar-nav a:hover{
-      font-weight: 800;
+    #sideNav .navbar-nav .nav-item .nav-link:hover{
       color: #FFfcef50;
       transition: .3s linear;}
 
