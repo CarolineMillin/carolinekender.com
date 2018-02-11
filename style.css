@@ -11,7 +11,7 @@ body {
   font-family: 'Lato', serif;
   padding-top: 54px;
   color: #444444;
-  background-color: #FFfcef;
+  background-color: #FFf5ea;
   background-image: url(https://carolinemillin.com/paper.png);
 }
 
@@ -81,12 +81,12 @@ h4 {
 
   #sideNav .navbar-nav a {
     font-weight: 600;
-    color: #FFfcef;
+    color: #FFf5ea;
     text-transform: uppercase;
     text-decoration: none;}
 
     #sideNav .navbar-nav a:hover{
-      color: #FFfcef50;
+      color: #FFf5ea50;
       transition: .3s linear;}
 
 @media (min-width: 992px) {
