@@ -15,7 +15,7 @@ body {
   background-image: url(https://carolinemillin.com/img/paper.png);
 }
 
-.flex.md-row {
+.flex-md-row {
   flex-direction: column !important;
 }
 
