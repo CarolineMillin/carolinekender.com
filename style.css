@@ -15,6 +15,14 @@ body {
   background-image: url(https://carolinemillin.com/img/paper.png);
 }
 
+.flex.md-row {
+  flex-direction: column !important;
+}
+
+.subheading {
+  font-weight: bold;
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;
