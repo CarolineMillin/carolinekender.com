@@ -8,6 +8,10 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" type="image/png" href="https://carolinekender.com/img/favicon.png">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
   <title>Caroline Kender</title>
 
   <!-- Bootstrap core CSS -->
@@ -24,7 +28,32 @@
       font-family: Simplifica;
       src: url('https://carolinekender.com/fonts/SIMPLIFICA.TTF');
     }
+
+    .slick-next:before,
+    .slick-prev:before {
+      color: #444 !important;
+      font-size: 25px !important;
+    }
+
+    .slick-track {
+      height: 1200px;
+    }
+
+    .slick-slide img {
+      height: auto;
+      max-width: 100%;
+      max-height: 500px;
+      margin: auto;
+    }
+
+    .slick-initialized .slick-slide {
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+      max-height: 1200px;
+    }
   </style>
+
   <link href="https://fonts.googleapis.com/css?family=Lato:300,300i" rel="stylesheet">
   <link href="https://carolinekender.com/vendor/font-awesome/css/all.css" rel="stylesheet">
 
@@ -40,7 +69,8 @@
       <span class="d-block d-lg-none"><img src="https://carolinekender.com/img/logo.png" alt="Caroline Kender"
           width="40"></span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://carolinekender.com/img/profile2.jpg" alt="it me">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://carolinekender.com/img/profile2.jpg"
+          alt="it me">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -56,11 +86,12 @@
           <a class="nav-link js-scroll-trigger" href="https://carolinekender.com/#experience">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="https://carolinekender.com/#awards">Achievements</a>
+          <a class="nav-link js-scroll-trigger" href="https://carolinekender.com/#writing">Writing Samples</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="https://carolinekender.com/#fun ">Fun SHiT</a>
+          <a class="nav-link js-scroll-trigger" href="https://carolinekender.com/#achievements">Achievements</a>
         </li>
+
       </ul>
     </div>
   </nav>
@@ -81,32 +112,32 @@
           <br> <br> Once, in a networking class I took, we were learning about cookies (the internet kind) and I
           convinced my professor to
           bring in cookies (the delicious kind) for the class. That pretty much says all you need to know about me. </p>
-          <ul class="list-inline list-social-icons mb-0">
-            <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/carolinekender/" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://twitter.com/sweetcar0line15" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="http://www.quchronicle.com/author/caroline-millin/" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-quora fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
+        <ul class="list-inline list-social-icons mb-0">
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/carolinekender/" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://twitter.com/sweetcar0line15" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="http://www.quchronicle.com/author/caroline-millin/" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-quora fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
 
@@ -145,9 +176,9 @@
             <div class="subheading mb-3">Coldwater Creek | Hingham, MA</div>
             <p>Copywriting: catalog & email copy, product naming, defining style and voice as brand
               evolves, working with merchants to ensure all product information is accurate and on time.
-              </p>
-              <p>Proofreading: print catalogs, retail initiatives/signage, and digital content (email, social
-                media, web, etc.)</p>
+            </p>
+            <p>Proofreading: print catalogs, retail initiatives/signage, and digital content (email, social
+              media, web, etc.)</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Summer 2019 - Present</span>
@@ -159,8 +190,8 @@
             <h3 class="mb-0">Office Manager</h3>
             <div class="subheading mb-3">Sea-Dar Construction | Boston, MA</div>
             <p>Generating Instagram engagement/managing page – helped hit 2,000 followers</p>
-              <p>Sending weekly training materials to project supervisors, collecting/organizing inspections</p>
-              <p>Managing all mail, invoices, packages, office supplies, and kitchen needs</p>
+            <p>Sending weekly training materials to project supervisors, collecting/organizing inspections</p>
+            <p>Managing all mail, invoices, packages, office supplies, and kitchen needs</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Spring - Summer 2019 (Contract)</span>
@@ -172,7 +203,7 @@
             <h3 class="mb-0">Ghostwriter</h3>
             <div class="subheading mb-3">Freelance | Boston, MA</div>
             <p>Working with executives to brainstorm, organize, and write business articles</p>
-              <p>Turning ideas and outlines into polished, publishable pieces</p>
+            <p>Turning ideas and outlines into polished, publishable pieces</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Fall 2018 - Present</span>
@@ -184,7 +215,7 @@
             <h3 class="mb-0">Social Media Intern</h3>
             <div class="subheading mb-3">Outgift Co.</div>
             <p>Collaborating with nationwide staff to create giveaways and social media campaigns</p>
-              <p>Designing promotional materials – tripled Instagram followers</p>
+            <p>Designing promotional materials – tripled Instagram followers</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Winter 2016/17</span>
@@ -196,7 +227,7 @@
             <h3 class="mb-0">Technical Writing Intern</h3>
             <div class="subheading mb-3">Dimensional Insight | Burlington, MA</div>
             <p>Learning company software and proprietary programming language</p>
-              <p>Creating, editing, and updating help documents for software and PPL</p>
+            <p>Creating, editing, and updating help documents for software and PPL</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Summer 2016 - Winter 2016/17</span>
@@ -208,7 +239,7 @@
             <h3 class="mb-0">Associate Copy Editor</h3>
             <div class="subheading mb-3">Quinnipiac Chronicle | Hamden, CT</div>
             <p>Reviewing and editing articles and layout of weekly newspaper</p>
-              <p>Generating story ideas and creative headlines; contributing articles</p>
+            <p>Generating story ideas and creative headlines; contributing articles</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Fall 2015 - Spring 2017</span>
@@ -221,7 +252,7 @@
             <div class="subheading mb-3">Quinnipiac University | Hamden, CT</div>
             <p>Tutoring fellow students in English courses and math courses through Calculus 1 – also
               helped with non-course-specific writing</p>
-              <p>Selected to work directly with professors to facilitate student learning in class</p>
+            <p>Selected to work directly with professors to facilitate student learning in class</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Fall 2015 - Spring 2018</span>
@@ -235,7 +266,7 @@
 
 
 
-  <!--  <hr class="m-0">
+    <!--  <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
       <div class="w-100">
@@ -301,49 +332,111 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Achievements</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Quinnipiac Chronicle - Awarded Best College Newspaper in New England by Princton Review (also #18 in the country) </li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Sigma Tau Delta English Honor Society - Inducted into prestigious society for academic achievement and service work </li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            University Innovation Fellows - Selected to national network of innovators to train as change agent for leading and
-            encouraging community entrepreneurship</li>
-          <li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="chunk p-3 p-lg-5 d-flex flex-column" id="fun">
+    <section class="chunk p-3 p-lg-5 d-flex flex-column" id="writing">
       <div class="my-auto">
-        <h2 class="mb-4">For Fun</h2>
+        <h2 class="mb-4">Writing Samples</h2>
 
-        <div class="mb-1">
-          <h3>What I Wanna Do</h3>
+        <div class="slide-container" style="margin: 0 auto; padding: 40px; width: 75%;">
+          <div class="single-item">
+            <div>
+              <h3 class="mb-1">Poem For Boston</h3>
+              <p class="date mb-2"> April 17, 2013</p>
+              <p>If you watched these attacks from space,
+                <br>they would seem so small.
+                <br>Imperfections on a beautiful face,
+                <br>you might not see them at all.
+                <br>
+                <br>But the repercussions are relentless,
+                <br>and once the shockwaves start,
+                <br>smoke stings the blindest eyes of justice,
+                <br>the shrapnel cuts every heart.
+                <br>
+                <br>Because sadness shakes the strongest will,
+                <br>fear cuts the thickest skin.
+                <br>The despair spurs it deeper still,
+                <br>and anger drives it in.
+                <br>
+                <br>So the world cries out that it's not right,
+                <br>hate throws salt on the wounds.
+                <br>As darkness seems to trump the light,
+                <br>and the forecast spells our doom.
+                <br>
+                <br>Yet bravery cleans the salty maw,
+                <br>and kindness curbs the pain;
+                <br>the selflessness of those who saw
+                <br>their efforts not in vain.
+                <br>
+                <br>For heros are not just the grand,
+                <br>who save the lives of masses;
+                <br>they're those who lend their own two hands
+                <br>when the world around them crashes.
+                <br>
+                <br>Too many times we're filled with hate
+                <br>at those who break our stride.
+                <br>Too many times we must placate
+                <br>the families of those who died.
+                <br>
+                <br>So though patriotism springs aplenty,
+                <br>a shame it must be done:
+                <br>Why it always takes the loss of many
+                <br>to make us feel like one.
+            </div>
+            <div>
+              <h3 class="mb-1"> Fuzzy </h3>
+              <p class="date mb-2"> February 2016</p>
+              <p>The light filters in through the window and dissipates softly around her.
+                At the table, her cozy sweater is illuminated and she takes a sip of fresh coffee,
+                typing away at her computer. He comes up behind her and wraps his arms around her torso, leaning his
+                face
+                into hers and nibbling at her ear.
+                <br>
+                <br>“Cut it out” She squeaks, curling into his playful embrace as he smiles and presses his lips to
+                hers.
+                “Seriously, I’m – trying to – work!” she protests between kisses.
+                He kisses the top of her head and slides next to her with his computer. “Mind if I join you?”
+                <br>
+                <br>“I don’t know, I might get distracted” She smirks, turning back to her screen but leaning her
+                shoulder
+                against his.
+                <br>
+                <br>“Here,” He turns. “Sit sideways to you can put your feet up on my lap.”
+                She happily obliges, poking his stomach with her toes until he begins to tickle them.
+                They reach an unspoken truce and settle into position.
+                He runs his hand absentmindedly across her shins and cuddles her fuzzy-socked feet as the two of them
+                work,
+                warm in their first shared apartment on this wintry Sunday morning.
+            </div>
+            <div>
+              <img src="https://stephenkender.com/img/beer1.png" alt="" />
+              This is a beer label I made
+            </div>
+          </div>
         </div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fas fa-pencil-alt" style="color: #1F618D"></i>
-            Be an Editor</li>
-          <li>
-            <i class="fa-li fa fa-spin fa-star" style="color: #1F618D"></i>
-            Kick Butt </li>
-          <li>
-            <i class="fa-li fa fa-briefcase" style="color: #1F618D"></i>
-            Work in A Fun Place</li>
-          <li>
-            <i class="fa-li fa fa-paw" style="color: #1F618D"></i>
-            Keep Learning New Things </li>
-        </ul>
-      </div>
     </section>
 
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="achievements">
+        <div class="w-100">
+          <h2 class="mb-5">Awards &amp; Achievements</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Quinnipiac Chronicle - Awarded Best College Newspaper in New England by Princton Review (also #18 in the
+              country) </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Sigma Tau Delta English Honor Society - Inducted into prestigious society for academic achievement and
+              service work </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              University Innovation Fellows - Selected to national network of innovators to train as change agent for
+              leading and
+              encouraging community entrepreneurship</li>
+            <li>
+          </ul>
+        </div>
+      </section>
   </div>
 
   <!-- Bootstrap core JavaScript -->
@@ -355,6 +448,21 @@
 
   <!-- Custom scripts for this template -->
   <script src="https://carolinekender.com/js/caroline.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js">
+  </script>
+
+
+
+  <script>
+    $(document).ready(function () {
+      $(".single-item").slick({
+        dots: true,
+        adaptiveHeight: true
+      });
+    });
+  </script>
 
 </body>
 
