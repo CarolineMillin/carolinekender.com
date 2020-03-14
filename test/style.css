@@ -3,6 +3,21 @@
  */
 /*Colors*/
 
+@font-face {
+	font-family: 'Avenir Bold';
+	src: url('https://carolinekender.com/fonts/AvenirNextLTPro-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Avenir Heavy';
+	src: url('https://carolinekender.com/fonts/AvenirNextLTPro-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Avenir Light';
+	src: url('https://carolinekender.com/fonts/AvenirNextLTPro-Light.ttf') format('truetype');
+}
+
 * {
   box-sizing: content-box;
 }

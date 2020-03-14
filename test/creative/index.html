@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+
+    <style>
+        .slick-next:before,
+        .slick-prev:before {
+          color: #444 !important;
+          font-size: 25px !important;
+        }
+    
+        .slick-track {
+          height: 1200px;
+        }
+    
+        .slick-slide img {
+          height: auto;
+          max-width: 100%;
+          max-height: 95vh;
+          margin: auto;
+        }
+    
+        .slick-initialized .slick-slide {
+          display: flex !important;
+          justify-content: center !important;
+          align-items: center !important;
+          max-height: 95vh;
+        }
+      </style>
+</head>
+<body>
+    <h1>Creative Writing</h1>
+
+    
+    <div class="slide-container" style="margin: 0 auto; padding: 40px; width: 75%;">
+        <div class="single-item">
+          <!-- <div>
+            <h3 class="mb-1">Poem For Boston</h3>
+            <p class="date mb-2"> April 17, 2013</p>
+            <p>If you watched these attacks from space,
+              <br>they would seem so small.
+              <br>Imperfections on a beautiful face,
+              <br>you might not see them at all.
+              <br>
+              <br>But the repercussions are relentless,
+              <br>and once the shockwaves start,
+              <br>smoke stings the blindest eyes of justice,
+              <br>the shrapnel cuts every heart.
+              <br>
+              <br>Because sadness shakes the strongest will,
+              <br>fear cuts the thickest skin.
+              <br>The despair spurs it deeper still,
+              <br>and anger drives it in.
+              <br>
+              <br>So the world cries out that it's not right,
+              <br>hate throws salt on the wounds.
+              <br>As darkness seems to trump the light,
+              <br>and the forecast spells our doom.
+              <br>
+              <br>Yet bravery cleans the salty maw,
+              <br>and kindness curbs the pain;
+              <br>the selflessness of those who saw
+              <br>their efforts not in vain.
+              <br>
+              <br>For heros are not just the grand,
+              <br>who save the lives of masses;
+              <br>they're those who lend their own two hands
+              <br>when the world around them crashes.
+              <br>
+              <br>Too many times we're filled with hate
+              <br>at those who break our stride.
+              <br>Too many times we must placate
+              <br>the families of those who died.
+              <br>
+              <br>So though patriotism springs aplenty,
+              <br>a shame it must be done:
+              <br>Why it always takes the loss of many
+              <br>to make us feel like one.
+          </div> -->
+         
+      <div>
+            <img src="https://carolinekender.com/img/shrug.png" alt="" />
+      </div>
+
+      <div>
+            <img src="https://carolinekender.com/img/sweater.png" alt="" />
+      </div>
+
+      <div>
+            <img src="https://carolinekender.com/img/jewelry.png" alt="" />
+      </div>
+
+      <div>
+        <img src="https://carolinekender.com/img/set.png" alt="" />
+      </div>
+      
+      <div>
+        <img src="https://carolinekender.com/img/towel.PNG" alt="" />
+      </div>
+     
+      <div>
+        <img src="https://carolinekender.com/img/necklace.PNG" alt="" />
+      </div>
+          
+      <div>
+        <img src="https://carolinekender.com/img/email.png" alt="" />
+      </div>
+          
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js">
+  </script>
+
+
+
+  <script>
+    $(document).ready(function () {
+      $(".single-item").slick({
+        dots: true,
+        adaptiveHeight: true
+      });
+    });
+  </script>
+</body>
+</html>

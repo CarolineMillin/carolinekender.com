@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'Avenir Bold';
+	src: url('fonts/AvenirNextLTPro-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Avenir Heavy';
+	src: url('fonts/AvenirNextLTPro-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Avenir Light';
+	src: url('fonts/AvenirNextLTPro-Light.ttf') format('truetype');
+}
+
+h1 {
+    font-family: "Avenir Heavy";
+    font-size: 50px;
+}
