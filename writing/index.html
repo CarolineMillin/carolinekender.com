@@ -1,184 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <!--hello darkness my old friend -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" type="image/png" href="https://carolinekender.com/img/favicon.png">
-    <title>Caroline Kender</title>
-  
-    <!-- Bootstrap core CSS -->
-    <link href="https://carolinekender.com/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  
-    <!-- Custom fonts for this template -->
-    <style>
-      @font-face {
-        font-family: Bodoni;
-        src: url('https://carolinekender.com/fonts/BOD_CR.TTF');
-      }
-  
-      @font-face {
-        font-family: Simplifica;
-        src: url('https://carolinekender.com/fonts/SIMPLIFICA.TTF');
-      }
-    </style>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i" rel="stylesheet">
-    <link href="https://carolinekender.com/vendor/font-awesome/css/all.css" rel="stylesheet">
-  
-    <!-- Custom styles for this template -->
-    <link href="https://carolinekender.com/style.css" rel="stylesheet">
-  
-  </head>
-  
-  <body id="page-top">
-  
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none"><img src="https://carolinekender.com/img/logo.png" alt="Caroline Kender"
-            width="40"></span>
-        <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://carolinekender.com/img/profile2.jpg" alt="it me">
-        </span>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li>
-            <a href="https://carolinekender.com">The Lowdown</a>
+<head>
+  <!--hello darkness my old friend -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" type="image/png" href="https://carolinekender.com/img/favicon.png">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+  <title>Caroline Kender</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://carolinekender.com/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <style>
+    @font-face {
+      font-family: Bodoni;
+      src: url('https://carolinekender.com/fonts/BOD_CR.TTF');
+    }
+
+    @font-face {
+      font-family: Simplifica;
+      src: url('https://carolinekender.com/fonts/SIMPLIFICA.TTF');
+    }
+
+    .slick-next:before,
+    .slick-prev:before {
+      color: #444 !important;
+      font-size: 25px !important;
+    }
+
+    .slick-track {
+      height: 1200px;
+    }
+
+    .slick-slide img {
+      height: auto;
+      max-width: 100%;
+      max-height: 1200px;
+      margin: auto;
+    }
+
+    .slick-initialized .slick-slide {
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+      max-height: 1200px;
+    }
+  </style>
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,300i" rel="stylesheet">
+  <link href="https://carolinekender.com/vendor/font-awesome/css/all.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="https://carolinekender.com/style.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none"><img src="https://carolinekender.com/img/logo.png" alt="Caroline Kender"
+          width="40"></span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://carolinekender.com/img/profile2.jpg"
+          alt="it me">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="https://carolinekender.com/#about">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="https://carolinekender.com/#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="https://carolinekender.com/#writing">Writing Samples</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="https://carolinekender.com/#achievements">Achievements</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="chunk p-3 p-lg-5 d-flex d-column" id="intro">
+      <div class="my-auto">
+        <h1 class="mb-4">Caroline
+          <span class="text-primary">Kender</span>
+        </h1>
+        <div class="quickmaths mb-4" style="padding-left: 5px">Writer · Editor · Problem Solver · Coffee Enthusiast
+        </div>
+        <p class="mb-4" style="padding-left: 5px">I am a creative and adaptable writer with strong skills in
+          copywriting, proofreading, narrative development, and technical writing. I also have a knack for design and a platonic relationship with Java.
+          <br> <br> Once, in a networking class I took, we were learning about cookies (the internet kind) and I
+          convinced my professor to bring in cookies (the delicious kind) for the class. That pretty much says all you need to know about me. </p>
+        <ul class="list-inline list-social-icons mb-0">
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/carolinekender/" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
           </li>
-          <li>
-            <a href="https://carolinekender.com/design">Graphic Design</a>
+          <li class="list-inline-item">
+            <a href="https://twitter.com/sweetcar0line15" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
           </li>
-          <li>
-            <a href="https://carolinekender.com/writing">Writing</a>
+          <li class="list-inline-item">
+            <a href="http://www.quchronicle.com/author/caroline-millin/" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fab fa-quora fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
           </li>
         </ul>
       </div>
-    </nav>
+    </section>
 
-    <div class="container-fluid p-0">
+    <hr class="m-0">
 
-        <section class="chunk p-3 p-lg-5 d-flex d-column" id="intro">
-          <div class="my-auto">
-            <h1 class="mb-4">My
-              <span class="text-primary">Writing</span>
-            </h1>
-            <div class="quickmaths mb-4" style="padding-left: 5px">More to come!</div>
-            <p class="mb-4" style="padding-left: 5px">This page contains a few of my creative writing pieces.
-              <br> <br>
-            If you would like to read some of my journalistic works from my time on the Quinnipiac Chronicle, click the icon below. </p>
-            <ul class="list-inline list-social-icons mb-0">
-              <li class="list-inline-item">
-                <a href="http://www.quchronicle.com/author/caroline-millin/" target="_blank">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-quora fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </section>
+    <section class="chunk p-3 p-lg-5 d-flex flex-column" id="writing">
+      <div class="my-auto">
+        <h2 class="mb-4">Coldwater Creek Writing Samples</h2>
 
-
-        <section class="chunk p-3 p-lg-5 d-flex flex-column" id="writing">
-          <div class="my-auto">
-            <h2 class="mb-4">Creative Writing</h2>
-
-            <div class="item d-flex flex-column flex-md-row">
-              <div class="content mr-auto">
-                <h3 class="mb-1"> Fuzzy </h3>
-                <p class="date mb-2"> February 2016</p>
-                <p>The light filters in through the window and dissipates softly around her.
-                At the table, her cozy sweater is illuminated and she takes a sip of fresh coffee,
-                typing away at her computer. He comes up behind her and wraps his arms around her torso, leaning his face into hers and nibbling at her ear.
-                  <br>
-                <br>“Cut it out” She squeaks, curling into his playful embrace as he smiles and presses his lips to hers.
-                “Seriously, I’m – trying to – work!” she protests between kisses.
-                He kisses the top of her head and slides next to her with his computer. “Mind if I join you?”
-                  <br>
-                <br>“I don’t know, I might get distracted” She smirks, turning back to her screen but leaning her shoulder against his.
-                  <br>
-                <br>“Here,” He turns. “Sit sideways to you can put your feet up on my lap.”
-                She happily obliges, poking his stomach with her toes until he begins to tickle them.
-                They reach an unspoken truce and settle into position.
-                He runs his hand absentmindedly across her shins and cuddles her fuzzy-socked feet as the two of them work,
-                warm in their first shared apartment on this wintry Sunday morning.
-                  <br>
-                  <br>
-                </p>
-              </div>
-            </div>
-
-            <div class="item d-flex flex-column flex-md-row">
-              <div class="content mr-auto">
-                <h3 class="mb-1">Poem For Boston</h3>
-                <p class="date mb-2"> April 17, 2013</p>
-                <p>If you watched these attacks from space,
+        <div class="slide-container" style="margin: 0 auto; padding: 40px; width: 75%;">
+          <div class="single-item">
+            <!-- <div>
+              <h3 class="mb-1">Poem For Boston</h3>
+              <p class="date mb-2"> April 17, 2013</p>
+              <p>If you watched these attacks from space,
                 <br>they would seem so small.
                 <br>Imperfections on a beautiful face,
                 <br>you might not see them at all.
-                  <br>
+                <br>
                 <br>But the repercussions are relentless,
                 <br>and once the shockwaves start,
                 <br>smoke stings the blindest eyes of justice,
                 <br>the shrapnel cuts every heart.
-                  <br>
+                <br>
                 <br>Because sadness shakes the strongest will,
                 <br>fear cuts the thickest skin.
                 <br>The despair spurs it deeper still,
                 <br>and anger drives it in.
-                  <br>
+                <br>
                 <br>So the world cries out that it's not right,
                 <br>hate throws salt on the wounds.
                 <br>As darkness seems to trump the light,
                 <br>and the forecast spells our doom.
-                  <br>
+                <br>
                 <br>Yet bravery cleans the salty maw,
                 <br>and kindness curbs the pain;
                 <br>the selflessness of those who saw
                 <br>their efforts not in vain.
-                  <br>
+                <br>
                 <br>For heros are not just the grand,
                 <br>who save the lives of masses;
                 <br>they're those who lend their own two hands
                 <br>when the world around them crashes.
-                  <br>
+                <br>
                 <br>Too many times we're filled with hate
                 <br>at those who break our stride.
                 <br>Too many times we must placate
                 <br>the families of those who died.
-                  <br>
+                <br>
                 <br>So though patriotism springs aplenty,
                 <br>a shame it must be done:
                 <br>Why it always takes the loss of many
                 <br>to make us feel like one.
-                  <br>
-                  <br>
-                </p>
-              </div>
-            </div>
+            </div> -->
+           
+        <div>
+              <img src="https://carolinekender.com/img/shrug.png" alt="" />
+        </div>
 
-          </div>
-        </section>
+        <div>
+              <img src="https://carolinekender.com/img/sweater.png" alt="" />
+        </div>
 
-</div>
+        <div>
+              <img src="https://carolinekender.com/img/jewelry.png" alt="" />
+        </div>
 
-<!-- Bootstrap core JavaScript -->
-<script src="https://carolinekender.com/vendor/jquery/jquery.min.js"></script>
-<script src="https://carolinekender.com/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <div>
+          <img src="https://carolinekender.com/img/set.png" alt="" />
+        </div>
+        
+        <div>
+          <img src="https://carolinekender.com/img/towel.PNG" alt="" />
+        </div>
+       
+        <div>
+          <img src="https://carolinekender.com/img/necklace.PNG" alt="" />
+        </div>
+            
+        <div>
+          <img src="https://carolinekender.com/img/email.png" alt="" />
+        </div>
+            
+      </div>
+    </div>
 
-<!-- Plugin JavaScript -->
-<script src="https://carolinekender.com/vendor/jquery-easing/jquery.easing.min.js"></script>
+    </section>
 
-<!-- Custom scripts for this template -->
-<script src="https://carolinekender.com/js/caroline.min.js"></script>
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="achievements">
+        <div class="w-100">
+          <h2 class="mb-5">Awards &amp; Achievements</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Quinnipiac Chronicle - Awarded Best College Newspaper in New England by Princton Review (also #18 in the
+              country) </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Sigma Tau Delta English Honor Society - Inducted into prestigious society for academic achievement and
+              service work </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              University Innovation Fellows - Selected to national network of innovators to train as change agent for
+              leading and
+              encouraging community entrepreneurship</li>
+            <li>
+          </ul>
+        </div>
+      </section>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://carolinekender.com/vendor/jquery/jquery.min.js"></script>
+  <script src="https://carolinekender.com/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="https://carolinekender.com/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="https://carolinekender.com/js/caroline.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js">
+  </script>
+
+
+
+  <script>
+    $(document).ready(function () {
+      $(".single-item").slick({
+        dots: true,
+        adaptiveHeight: true
+      });
+    });
+  </script>
 
 </body>
 
