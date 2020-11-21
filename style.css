@@ -3,17 +3,33 @@
  */
 /*Colors*/
 @font-face {
-  font-family: 'Avenir Light';
+  font-family: 'Avenir';
   src: url('https://carolinekender.com/fonts/AvenirNextLTPro-Light.ttf')format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('https://carolinekender.com/fonts/AvenirNextLTPro-Bold.ttf')format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('https://carolinekender.com/fonts/AvenirNextLTPro-Heavy.ttf')format('truetype');
+  font-weight: bolder;
+  font-style: normal;
+}
+
 * {
   box-sizing: content-box;
 }
 
 body {
-  font-family: 'Avenir Light', serif;
+  font-family: 'Avenir', sans-serif;
+  font-weight: normal;
   padding-top: 54px;
   color: #444444;
   background-color: #fffaf6;
@@ -93,10 +109,12 @@ h4 {
     color: #2e70a5;}
 
   #sideNav .navbar-nav a {
-    font-weight: 600;
+    font-family: 'Avenir', sans-serif;
+    font-weight: bold;
     color: #FFf5ea;
     text-transform: uppercase;
-    text-decoration: none;}
+    text-decoration: none;
+  }
 
     #sideNav .navbar-nav a:hover{
       color: #f2cc2c;
