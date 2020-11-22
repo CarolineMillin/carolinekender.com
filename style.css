@@ -40,8 +40,7 @@ body {
   flex-direction: column !important;
 }
 
-.subheading {
-  font-weight: bold;
+.subheading   font-weight: 600;
 }
 
 @media (min-width: 992px) {
@@ -93,11 +92,11 @@ h4 {
 .date {
   font-size: 1.05rem;
   font-weight: bold;
-  color: #2e70a5;
+  color: #2e78a5;
 }
 
 .list-social-icons a {
-  color: #2e70a5; }
+  color: #2e78a5; }
   .list-social-icons a:hover {
     color: #f2cc2c; }
   .list-social-icons a .fa-lg {
@@ -106,7 +105,7 @@ h4 {
 .list-icons {
   font-size: 3rem; }
   .list-icons .list-inline-item i:hover {
-    color: #2e70a5;}
+    color: #2e78a5;}
 
   #sideNav .navbar-nav a {
     font-family: 'Avenir', sans-serif;
@@ -187,15 +186,15 @@ section.chunk {
    }}
 
 .bg-primary {
-  background-color: #2e70a5 !important; }
+  background-color: #2e78a5 !important; }
 
 .text-primary {
-  color: #2e70a5 !important;
+  color: #2e78a5 !important;
   }
 
 a {
-  color: #2e70a5;
-  transition: all .3s ease-out;}
+  color: #2e78a5;
+  transition: all .05s ease-out;}
   a:hover, a:focus, a:active {
     color: #f2cc2c;
-    transition: all .3s ease-in; }
+    transition: all .1s ease-in; }
